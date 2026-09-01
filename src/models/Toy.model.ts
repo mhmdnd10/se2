@@ -1,6 +1,6 @@
 import { Item, ItemCategory } from "./Item.model";
 
-class Toy implements Item {
+export class Toy implements Item {
     private name: string;
     private brand: string;
     constructor(name: string, brand: string) {

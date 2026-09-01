@@ -1,7 +1,7 @@
 import { Item, ItemCategory } from "./Item.model";
 import { Order } from "./Order.model";
 
-class Cake implements Item, Order {
+export class Cake implements Item, Order {
     private orderId: string;
     private price: number
     private quantity: number;
